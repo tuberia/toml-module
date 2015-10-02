@@ -1,0 +1,32 @@
+{
+  "name": "tuberia-toml-module",
+  "version": "1.0.0",
+  "description": "Provides TOML parsing and generation capabilities to a Tuberia pipeline.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel --optional es7.functionBind -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "mercurial",
+    "url": "https://bitbucket.org/tuberia/toml-module"
+  },
+  "keywords": [
+    "tuberia",
+    "tuberia-module",
+    "toml",
+    "parsing",
+    "generating"
+  ],
+  "author": "Colin Bate <colin@colinbate.com>",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/tuberia/toml-module#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "toml": "^2.3.0",
+    "tomlify": "^0.2.0"
+  }
+}
