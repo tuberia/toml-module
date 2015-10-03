@@ -1,6 +1,6 @@
 {
   "name": "tuberia-toml-module",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "description": "Provides TOML parsing and generation capabilities to a Tuberia pipeline.",
   "main": "lib/index.js",
   "scripts": {
